@@ -32,7 +32,7 @@ if(isset($_POST['app-submit']))
   $appdate=$_POST['appdate'];
   $apptime=$_POST['apptime'];
   $cur_date = date("Y-m-d");
-  date_default_timezone_set('Asia/Kolkata');
+  date_default_timezone_set('Africa/America');
   $cur_time = date("H:i:s");
   $apptime1 = strtotime($apptime);
   $appdate1 = strtotime($appdate);
@@ -126,7 +126,7 @@ if(isset($_GET["generate_bill"])){
 
   $content .= '
       <br/>
-      <h2 align ="center"> Global Hospitals</h2></br>
+      <h2 align ="center">BASMAH MEDICAL CLINICS</h2></br>
       <h3 align ="center"> Bill</h3>
       
 
