@@ -53,7 +53,7 @@ CREATE TABLE `appointmenttb` (
   `lname` varchar(20) NOT NULL,
   `gender` varchar(10) NOT NULL,
   `email` varchar(30) NOT NULL,
-  `contact` varchar(10) NOT NULL,
+  `contact` varchar(11) NOT NULL,
   `doctor` varchar(30) NOT NULL,
   `docFees` int(5) NOT NULL,
   `appdate` date NOT NULL,
