@@ -127,7 +127,7 @@ if(isset($_GET["generate_bill"])){
   $content .= '
       <br/>
       <h2 align ="center">BASMAH MEDICAL CLINICS</h2></br>
-      <h3 align ="center"> Bill</h3>
+      <h3 align ="center"> PRINT AND PAY YOUR  Bill</h3>
       
 
   ';
